@@ -5,7 +5,7 @@ from nltk.corpus import wordnet
 from nltk.stem import PorterStemmer,WordNetLemmatizer
 from nltk.corpus import stopwords
 
-from flask_ngrok import run_with_ngrok
+#from flask_ngrok import run_with_ngrok
 
 
 
@@ -27,7 +27,7 @@ def cleanText(x):
 #app =Flask(__name__)
 
 app = Flask(__name__)
-run_with_ngrok(app)  # Start ngrok when app is run
+#run_with_ngrok(app)  # Start ngrok when app is run
 #app = create_app(dev_config)
 usernames = {}
 usernames['qanit'] = 'qanit123'
