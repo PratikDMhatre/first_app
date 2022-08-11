@@ -33,7 +33,7 @@ usernames = {}
 usernames['qanit'] = 'qanit123'
 usernames['dipti'] = 'dipto'
 usernames['chinmay'] = 'chinmax'
-usernames['admin'] = 'admin123'
+usernames['admin'] = 'admin'
 @app.route('/',methods = ['GET'])
 def home():
 	return render_template('home.html')
